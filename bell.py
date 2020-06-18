@@ -7,7 +7,7 @@ import threading
 import socketserver
 
 STUB_FILE = os.path.dirname(os.path.realpath(__file__)) + "/pressed"
-HOST = "localhost"
+HOST = "0.0.0.0"
 PORT = 4810
 
 class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
